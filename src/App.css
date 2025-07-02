@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+p{
+  width: 50%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-primary{
+  width: 15%;
+  padding: 0.4rem;
+  border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-primary:hover{
+  background: rgb(94, 94, 189) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+  margin-top: 5rem;
 }
-
-.App-link {
-  color: #61dafb;
+.image{
+  background-image: url(A\ skilled\ developer.jpg) !important;
+  width: 30rem;
+  height: 20rem;
+  padding: 5rem;
+  position: absolute;
+  right: 5rem;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-item img{
+  background-image: url(A\ skilled\ developer.jpg);
+  height: 500px;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+h1{
+  font-size: 3.5rem;
+  font-weight: 600;
 }

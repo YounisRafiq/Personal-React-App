@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import AboutMe from "./components/AboutMe";
+import Contact from "./components/ContactMe";
+import Info from "./components/Info";
+import Navbar from "./components/Navbar";
+import Slider from "./components/slider";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
 function App() {
+  // const router = createBrowserRouter([
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar title="Younis Ali" />
+      <Info/>
+      <AboutMe about = "AboutMe"/>
+      <Slider head = "My Work"/>
+      <Contact detail = "Contact Me"/>
     </div>
   );
 }
